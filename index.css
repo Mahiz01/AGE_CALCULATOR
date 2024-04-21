@@ -1,0 +1,167 @@
+
+body{
+    background-color:  #add8e6;
+      
+  }
+.container {
+  margin-top: 10vh;
+  margin-left:60vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+  padding-left: 20vh;
+  border: 2px;
+  border-radius: 5%;
+  width: 40vh;
+  height: 40vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+}
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 12vh;
+  right:2vh;
+  height:100px;
+  background-color: white;
+  border-radius: 8px;
+}
+.container2 {
+  display: flex;
+  position: relative;
+  right: 52vh;
+  top:7vh;
+  justify-content: center;
+  height: 15vh;
+}
+.item {
+  display: inline;
+  justify-content: center;
+  margin: 25px;
+  padding: 20px;
+  height: 6vh;
+  width:6vh;
+  border:2px #76aa77;
+  background-color: white;
+  color:black;
+  border-radius: 5%;
+}
+.days{
+  position: relative;
+  bottom: 7px;
+  font-size: 5vh
+}
+.months{
+  position: relative;
+  bottom: 7px;
+  font-size: 5vh
+}
+.years{
+  position: relative;
+  bottom: 7px;
+  font-size: 5vh
+}
+.ite {
+  position: relative;
+  ;
+  margin: 20px;
+  size: 200vh;
+  height:1vh;
+  }
+.heading{
+  position:relative;
+bottom:26vh;
+left:40vh;
+width: 45vh;
+height:50px
+}
+.hea{
+  position:relative;
+bottom:26vh;
+left:39vh;
+width: 40vh;
+height:50px
+}
+
+.item:hover{
+
+color:black;
+font-family:"Roboto", "Arial", sans-serif;
+}
+h3{
+position: relative;
+right:10px
+}
+
+/* Customize the submit button */
+input[type="submit"] {
+/* Button background color */
+background-color: #157899;
+/* Button text color */
+color: white;
+/* Button border */
+border: none;
+/* Button padding */
+padding: 20px 25px;
+/* Button border radius */
+border-radius: 5px;
+/* Button hover effect */
+transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+background-color:  #5b90a1;
+}
+/* Custom date tag styling */
+input.original {
+font-size: 29px; /* Adjust font size */
+font-family:Arial, Helvetica, sans-serif, sans-serif; /* Specify font family */
+color: #434542; /* Specify text color */
+/* Add other styling properties as needed */
+}
+.msg{
+display: flex;
+justify-content: center;
+position: relative;
+bottom:100px;
+font-size:3vh;
+
+}
+.y{
+background-color: white;
+width:8.5vh;
+height:3vh;
+border-radius: 5px;
+align-items: center;
+position: relative;
+right:2.5vh;
+top:9px;
+font-size:1.2rem;
+padding-left:20px;
+}
+.m{
+background-color: white;
+width:8.5vh;
+height:3vh;
+border-radius: 5px;
+align-items: center;
+position: relative;
+right:2.5vh;
+top:9px;
+font-size:1.2rem;
+padding-left:20px;
+}
+.d{
+background-color: white;
+width:8.5vh;
+height:3vh;
+border-radius: 5px;
+align-items: center;
+position: relative;
+right:2.5vh;
+top:9px;
+font-size:1.2rem;
+padding-left:20px;
+}
